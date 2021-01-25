@@ -1,0 +1,19 @@
+
+.progressBar {
+  position: relative;
+}
+
+.progressBarBack {
+  width: 160px;
+  height: 10px;
+}
+
+.progressBarFront {
+  width: 160px;
+  height: 10px;
+  position: absolute;
+  top: 0;
+}
+
+
+
