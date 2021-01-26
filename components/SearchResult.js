@@ -16,7 +16,7 @@ function SearchResult({ tags }) {
   return (
     <div className="grid grid-cols-2 gap-4">
       {fieldIds.map((field) => (
-        <section key={field.ids} className="bg-white rounded-lg p-1">
+        <section key={field.field} className="bg-white rounded-lg p-1">
           <header>
             <h1 className="text-sm font-semibold text-gray-500">
               {field.field}

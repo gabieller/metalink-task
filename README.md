@@ -4,9 +4,6 @@ This is a prototype application developed for the recruitment process at Meta.li
 
 Open [Meta.link-task](https://metalink-task.vercel.app/) with your browser to see the result.
 
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
 
 ## General info
 
