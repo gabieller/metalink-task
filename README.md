@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Meta.link task
 
-## Getting Started
+This is a prototype application developed for the recruitment process at Meta.link.
 
-First, run the development server:
+Open [Meta.link-task](https://metalink-task.vercel.app/) with your browser to see the result.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## General info
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+The application works as a search for experts based on specific topics chosen by the user.  In this case, the tags available for search are *climate, nature, water,  mineral, and sustainability*. 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+The user can input some of these tags,  and the application will return the experts which occupation is related to the search. During the search, the experts' cards are divided by their fields of work and the information displayed are their picture profile, name, title, company logo, and a progress bar including the relation of the expert and the tags searched. If more than one tag was inputted by the user, this progress bar represents the average relation between all  searched tags.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+In the input area, the user can write their target tag and related tags are displayed to facilitate the search. It is possible to click on the desired related tag to add this to the search. Also, it is possible to click on the X above each searched tag to remove their experts from the search.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+*All the data are fictional
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Project is created with:
 
-## Deploy on Vercel
+* React JS
+* Tailwind
+* Next.js
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
