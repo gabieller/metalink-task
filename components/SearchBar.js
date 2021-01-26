@@ -12,7 +12,8 @@ function SearchedItems({ tags, onRemove }) {
       </span>
     ))
     .reduce((prev, curr) => [prev, " + ", curr]);
-}
+  }
+
 
 function SearchBar({ tags, setTags }) {
   const [searchValue, setSearchValue] = useState("");

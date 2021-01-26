@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 const average = (arr) => arr.reduce((p, c) => p + c, 0) / arr.length;
