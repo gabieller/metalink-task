@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-//TODO: fix border gradient
 function SideBar() {
   return (
     <div className="bg-white shadow w-25 my-2">
